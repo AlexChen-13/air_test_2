@@ -10,10 +10,13 @@ from airflow.operators.python_operator import PythonOperator
 def train_and_evaluate_model():
     # Загрузка данных
     df = pd.read_csv('/home/aleksey/DS_bootcamp/ФИНПРОЕКТ/transformed.csv')
+    
+    best_params = {'depth': 10, 'learning_rate': 0.14283458648427383, 'iterations': 1000,
+    'l2_leaf_reg':   6.737889033032106}
 
     # Загружаем модель
-    loaded_model = CatBoostRegressor()
-    loaded_model.load_model('catboost_model.cbm')
+    model = CatBoostRegressor(**best_params)
+    # loaded_model.load_model('catboost_model.cbm')
 
     # Определение признаков и целевой переменной
     X = df.drop('price', axis=1)
@@ -24,17 +27,17 @@ def train_and_evaluate_model():
     X_valid, X_test, y_valid, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
 
     # Переобучение модели на новых данных
-    loaded_model.fit(X_train, y_train)
+    model.fit(X_train, y_train)
     
     # Предсказание
-    y_pred = loaded_model.predict(X_valid)
+    y_pred = model.predict(X_valid)
 
     # Расчет MAE
     mae = mean_absolute_error(y_valid, y_pred)
     print(f"Mean Absolute Error: {mae}")
 
     # Сохранение модели
-    loaded_model.save_model('catboost_model.cbm')
+    model.save_model('catboost_model.cbm')
 
     # Запись MAE в текстовый файл
     with open('mae_results.txt', 'a') as f:  # Открытие файла в режиме добавления
