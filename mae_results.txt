@@ -1,2 +1,3 @@
 Mean Absolute Error: 174485.3201187931
 Mean Absolute Error: 174485.3201187931
+Mean Absolute Error: 182338.13512738873
