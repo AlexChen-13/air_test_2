@@ -1,0 +1,69 @@
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
+Mean Absolute Error: 180390.27623824024
+Mean Absolute Percentage Error: 14.07%
+R² Score: 0.97
